@@ -1,7 +1,7 @@
 import React from 'react'
 
 import search from "../../images/icons/search-icon-sm.png"
-import cart from "../../images/icons/cart.png"
+import cart from "../../images/icons/cart-sm.png"
 import logo from "../../images/icons/logo-sm.png"
 
 

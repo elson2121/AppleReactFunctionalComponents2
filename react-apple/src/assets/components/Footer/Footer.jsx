@@ -1,4 +1,5 @@
 import React from 'react'
+import './custom'
 import flagwrapper from "../../images/icons/16.png"
 function Footer() {
   return (

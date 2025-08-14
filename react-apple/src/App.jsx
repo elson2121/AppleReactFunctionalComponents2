@@ -1,5 +1,5 @@
 // import "./assets/css/bootstrap.css"
-import from "./cutom"
+// import cutom from "./assets/components/Footer/custom.js"
 import Header from './assets/components/Header/Header';
  import Alertt from './assets/components/Alertt/Alertt';
 import FirstSection from './assets/components/FirstSection/FirstSection';
@@ -22,6 +22,7 @@ function App() {
       <FifthSection/>
       <SixthSection/>
       <Footer/>
+      {/* <cutom/> */}
     </>
   );
 }
