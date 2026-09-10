@@ -9,19 +9,26 @@ import FourthSection from './assets/components/FourthSection/FourthSection';
 import FifthSection from './assets/components/FifthSection/FifthSection';
 import SixthSection from './assets/components/SixthSection/SixthSection';
 import Footer from './assets/components/Footer/Footer';
-
+import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <>
-      <Header />
-      <Alertt/>
-      <FirstSection/>
-      <SecondSection/>
-      <ThirdSection/>
-      <FourthSection/>
-      <FifthSection/>
-      <SixthSection/>
-      <Footer/>
+    <> 
+     <Header />
+     <Footer/>
+    <Routes>   
+     <Route path="/home" element={<Alertt />} />
+     <Route path="/iphone" element={<FirstSection/>}/>
+     <Route path="/ipad" element={<SecondSection/>}/>
+      <Route path="/watch" element={<ThirdSection/>}/>
+      <Route path="/apple" element={<FourthSection/>} />
+       <Route path="/new" element={<FifthSection/>} />
+     
+      
+      
+      
+</Routes>
+
+<SixthSection/>
       {/* <cutom/> */}
     </>
   );
