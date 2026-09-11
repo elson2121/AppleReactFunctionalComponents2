@@ -10,18 +10,20 @@ import FifthSection from './assets/components/FifthSection/FifthSection';
 import SixthSection from './assets/components/SixthSection/SixthSection';
 import Footer from './assets/components/Footer/Footer';
 import { Routes, Route } from 'react-router-dom';
+import Routerfile from './Routerfile';
 function App() {
   return (
     <> 
-     <Header />
-     <Footer/>
+     
     <Routes>   
-     <Route path="/home" element={<Alertt />} />
+      <Route path="/" element={<Routerfile/>}>    
+     <Route path="/phone" element={<Alertt />} />
      <Route path="/iphone" element={<FirstSection/>}/>
      <Route path="/ipad" element={<SecondSection/>}/>
       <Route path="/watch" element={<ThirdSection/>}/>
       <Route path="/apple" element={<FourthSection/>} />
-       <Route path="/new" element={<FifthSection/>} />   
+       <Route path="/new" element={<FifthSection/>} />  
+       </Route> 
 </Routes> 
 {/* 
 <SixthSection/> */}

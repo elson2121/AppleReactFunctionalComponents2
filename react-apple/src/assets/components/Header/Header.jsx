@@ -17,9 +17,9 @@ function Header() {
 
 			    <div className="navbar-collapse collapse">
 			        <ul className="navbar-nav nav-justified w-100 nav-fill">
-						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="/mac/">Mac</a></li>
-						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">iphone</a></li>
-						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">ipad</a></li>
+						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="/mac">Mac</a></li>
+						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="/iphone">iphone</a></li>
+						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="/ipad">ipad</a></li>
 						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">watch</a></li>
 						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">tv</a></li>
 						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">Music</a></li>
