@@ -21,14 +21,10 @@ function App() {
      <Route path="/ipad" element={<SecondSection/>}/>
       <Route path="/watch" element={<ThirdSection/>}/>
       <Route path="/apple" element={<FourthSection/>} />
-       <Route path="/new" element={<FifthSection/>} />
-     
-      
-      
-      
-</Routes>
-
-<SixthSection/>
+       <Route path="/new" element={<FifthSection/>} />   
+</Routes> 
+{/* 
+<SixthSection/> */}
       {/* <cutom/> */}
     </>
   );
