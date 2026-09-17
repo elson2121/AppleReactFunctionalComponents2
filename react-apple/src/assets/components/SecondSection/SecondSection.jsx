@@ -1,6 +1,17 @@
 import React from 'react'
 
 function SecondSection() {
+	const [phone, setPhone] = React.useState([])
+	useEffect(() => {
+		const getphone=	async()=>{
+			const response=await fetch("https://fakestoreapi.com/products")
+			const data=await response.json()
+			setPhone(data.products)
+			console.log(data)
+		}
+		getphone()
+	}, [])
+
   return (
     <section className="second-hightlight-wrapper">
 		<div className="container">
@@ -9,6 +20,11 @@ function SecondSection() {
 				New
 			</div>
 
+{phone.map((item) => (
+  <div key={item.id} className="title-wraper bold black">
+	{item.title}
+  </div>
+))	}
 			<div className="title-wraper bold black">
 				MacBook Air 
 			</div> 

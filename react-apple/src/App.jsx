@@ -11,6 +11,7 @@ import SixthSection from './assets/components/SixthSection/SixthSection';
 import Footer from './assets/components/Footer/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Routerfile from './Routerfile';
+import Product from '../Product';
 function App() {
   return (
     <> 
@@ -23,8 +24,10 @@ function App() {
       <Route path="/watch" element={<ThirdSection/>}/>
       <Route path="/apple" element={<FourthSection/>} />
        <Route path="/new" element={<FifthSection/>} />  
+      <Route path="/product/:id" element={<Product/>} />
        </Route> 
 </Routes> 
+
 {/* 
 <SixthSection/> */}
       {/* <cutom/> */}
